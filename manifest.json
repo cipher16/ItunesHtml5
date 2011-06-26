@@ -1,0 +1,11 @@
+{
+  "name": "ItunesHTML5",
+  "description":"Extension permettant d'avoir un aperçu d'un podcast vidéo directement sur la page web de itunes",
+  "version":"0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://itunes.apple.com/*"],
+      "js": ["jquery.js", "cleaner.js"]
+    }
+  ]
+}
